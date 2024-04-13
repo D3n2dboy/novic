@@ -1,0 +1,45 @@
+// Общие стили писать тут
+//=============================================================================================================================================
+
+// Заголовки
+.title {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+// Ссылки
+
+
+// Элементы формы
+
+
+// Прочее
+
+.button {
+    display: inline-block;
+    font-weight: 700;
+    padding: 13px 29px;
+    border-radius: 25px;
+    background-color: #070707;
+    color: #fff;
+    transition: all 0.2s ease;
+
+    /*срабатывает при клике пили переходе на tab */
+    &:focus {
+        outline: 2px solid #000;
+        outline-offset: 3px;
+    }
+
+    &:hover {
+        background-color: #f32929;
+    }
+
+    /*удерживает кнопку мыши на элементе*/
+    &:active {
+        transform: translateY(2px);
+    }
+}
+
+p {
+    line-height: 1.1;
+}
